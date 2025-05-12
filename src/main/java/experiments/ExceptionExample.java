@@ -12,7 +12,7 @@ public class ExceptionExample {
                 System.out.println(strArray[i]);
             }
         } catch (Exception e) {
-            throw new RuntimeException("An error occurred while processing the array", e);
+            throw new RuntimeException("Error", e);
         }
         System.out.println("Program is working");
     }
