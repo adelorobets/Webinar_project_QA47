@@ -34,9 +34,9 @@ public class CcsSelectorsTest {
         WebElement radioButtonYes = driver.findElement(By.cssSelector("label[for='yesRadio']"));
         radioButtonYes.click();
 
-        pause(3);
+        pause(10);
         driver.navigate().back();
-        pause(2);
+        pause(10);
         driver.navigate().back();
         hideFooter();
 
@@ -44,14 +44,14 @@ public class CcsSelectorsTest {
         WebElement divBookStore = driver.findElement(By.cssSelector("div.category-cards > div.card.mt-4.top-card:last-child"));
         divBookStore.click();
 
-        pause(3);
+        pause(10);
         driver.navigate().back();
 
         // Клик по четвертому элементу (Widgets)
         WebElement divWidgets = driver.findElement(By.cssSelector("div.category-cards > div.card.mt-4.top-card:nth-child(4)"));
         divWidgets.click();
 
-        pause(3);
+        pause(10);
     }
 
     public void pause(int seconds) {

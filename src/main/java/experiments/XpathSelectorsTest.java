@@ -54,6 +54,7 @@ public class XpathSelectorsTest {
         //driver.quit();
     }
 
+
     public void pause() {
         try {
             Thread.sleep(5000);
